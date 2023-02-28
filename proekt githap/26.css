@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    padding: 0 5% 0 10%;
+    width: 100%;
+}
+html{
+    width: 100%;
+}
+header{
+    width: 80%;
+    padding: 0 0 0 0;
+}
+main{
+    width: 80%;
+    padding: 0 0 0 0;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0 0 0 0;
+    background-color: white;
+}
+ul{
+    margin: 0px;
+}
+.ul1{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+h1{
+    margin: 0 0 0 5px;
+}
+.nav1-{
+    background-color: white;
+    height: 70px;
+}
+.nav1{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+}
+.nav1d{
+    height: 50%;
+    background-color: black;
+    background: url("");
+}
+.nav2{
+    height: 100%;
+    width: 30%;
+}
+.fo1d{
+    background-color: white;
+    height: 50px;
+    margin: 5px;
+}
+.fo1d1{
+    background-color: white;
+    height: 50px;
+    margin: 5px;
+}
+.ani{
+    background: url("mountain.jpg");
+    background-size: cover;
+    height: 620px;
+    width: 1523px;
+    position: absolute;
+    animation:ani 5s infinite;
+}
+.ani1{
+    background: url("ani1.jpg");
+    background-size: cover;
+    height: 620px;
+    width: 1523px;
+    position: absolute;
+    animation:ani1 5s infinite;
+}
+.ani2{
+    background: url("ani2.jpg");
+    background-size: cover;
+    height: 620px;
+    width: 1523px;
+    position: absolute;
+    animation:ani2 5s infinite;
+}
+.ani3{
+    background: url("ani3.jpg");
+    background-size: cover;
+    height: 620px;
+    width: 1523px;
+    position: absolute;
+    animation:ani3 5s infinite;
+}
+@keyframes ani {
+    0%    {opacity: 1}
+    25%   {opacity: 0}
+    50%   {opacity: 0}
+    75%   {opacity: 0}
+    100%  {opacity: 1}
+}
+@keyframes ani1 {
+    0%    {opacity: 0}
+    25%   {opacity: 1}
+    50%   {opacity: 0}
+    75%   {opacity: 0}
+    100%  {opacity: 0}
+}
+@keyframes ani2 {
+    0%    {opacity: 0}
+    25%   {opacity: 0}
+    50%   {opacity: 1}
+    75%   {opacity: 0}
+    100%  {opacity: 0}
+}
+@keyframes ani3 {
+    0%    {opacity: 0}
+    25%   {opacity: 0}
+    50%   {opacity: 0}
+    75%   {opacity: 1}
+    100%  {opacity: 0}
+}
+.sec1{
+    height: 620px;
+    width: 1523px;
+    position: relative;
+}
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 200px;
+    margin: 5%;
+}
+.sec2a{
+    background-color: cornsilk;
+    width: 90%;
+}
+.sec2a1{
+    background-color: cornsilk;
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+.sec2a2{
+    background-color: cornsilk;
+    width: 90%;
+}
+.sec3{
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    height: 270px;
+    margin: 5%;
+}
+.sec3a{
+    background-color: cornsilk;
+    width: 70%;
+}
+.sec3d{
+    background-color: cornsilk;
+}
+.sec3d1{
+    background-color: cornsilk;
+}
+.sec3l{
+    background: lightgrey;
+    height: 40px;
+    width: 285px;
+    margin: 20px 0 5px 0;
+}
+.sec3l1{
+    background: lightgrey;
+    height: 40px;
+    width: 285px;
+    margin: 5px 0 5px 0;
+}
+.sec3l2{
+    background: lightgrey;
+    height: 40px;
+    width: 285px;
+    margin: 5px 0 5px 0;
+}
+.sec3l3{
+    background: lightgrey;
+    height: 40px;
+    width: 285px;
+    margin: 5px 0 5px 0;
+}
+.sec3fix{
+    margin: 10px;
+}
+.sec4{
+    background-color: cornsilk;
+}
+.img1{
+    height: 250px;
+    width: 370px;
+}
